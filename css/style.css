@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+header{
+    padding: 24px;
+}
+.container{
+    margin: 0 auto;
+    width: 1440px;
+}
+.sub_container{
+    margin: 0 170px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    color: #222;
+    text-decoration: none;
+
+}
+.navbar a:hover,
+footer a:hover{
+    color: #DE2E54;
+}
+.navbar nav,
+footer nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+}
+
+.navbar nav a,
+footer nav a{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 150%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+
+}
+.logo img{
+    height: 49.94px;
+    width: 50px;
+}
+.logo span{
+    margin: 10px;
+    margin-left: 16px;
+    display: block;
+}
+.btn,
+.btn_2 {
+    display: block;
+    height: 47px;
+    padding: 10px;
+    background: #DE2E54;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff !important;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.btn:hover,
+.btn_2:hover{
+    background-color: #fff ;
+    color:#DE2E54 !important;
+    border: 2px solid #DE2E54;
+}
+#main .btn:hover{
+    border: 2px solid #DE2E54;
+    background-color: #DE2E54;
+    color: #fff !important;
+}
+#main, #contact{
+    color: #fff;
+    background-color: #0EB4C1;
+}
+#main .sub_container{
+    display: flex;
+    justify-content: space-between;
+}
+#main .main-text {
+    width: 500px;
+}
+#main .main-text .main-title{
+    margin-top: 120px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 120%;
+}
+#main .main-text p{
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 16px;
+}
+
+#main img{
+    width: 423px;
+    height: 504px;
+}
+#services .title{
+    margin-top: 120px;
+    margin-bottom: 56px;
+    text-align: center;
+    font-style:"Roboto Condensed","Arial", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000;
+}
+.service{
+    display:flex;
+    margin-bottom:80px;
+}
+.service div{
+    margin-left:64px;
+}
+.service img{
+    width: 200px;
+    height: 200px;
+}
+.service .service-title{
+    margin-top: 24px;
+    color: #000;
+    font-size: "Roboto Condensed","Arial", sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 120%;
+}
+.service .text{
+    margin-top: 24px;
+    font-style: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444;
+}
+.btn_2{
+    margin: 0 auto;
+    margin-bottom: 132px;
+    width: 200px;
+    text-align: center;
+}
+#contact .main-title{
+    padding-top: 64px;
+    margin-bottom: 38px;
+    font-style: "Roboto Condensed","Arial", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+}
+#contact .contact{
+    margin: 0 auto;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    padding-bottom: 76px;
+}
+#contact .contact a{
+    display: block;
+    padding: 10px;
+    width: 250px;
+    color: #fff;
+    background-color: #0EB4C1;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+#contact .contact a:hover{
+    background-color: #DE2E54;
+    border: 2px solid #DE2E54;
+}
+footer{
+    padding: 24px 0;
+    background-color: #222;
+
+}
+footer .sub_container{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
